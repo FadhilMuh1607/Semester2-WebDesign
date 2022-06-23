@@ -1,0 +1,489 @@
+header{
+    font-weight: bold;
+}
+
+.headerlogo{
+    float:left;
+    margin-right: 1px;
+}
+
+.headerlogo > img {
+    height: 60px;
+    width: 60px;
+}
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header{
+    font-weight: bold;
+    color: #9c591e;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+.headerlogo > img {
+    height: 60px;
+    width: 60px;
+}
+
+#headername {
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 5px 5px 5px #7552f3;
+    color: #4821f7;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url(../fonts/Lobster_1.3.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lilita+One'); nav {
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.backgroundgradient{
+    background: -webkit-linear-gradient(left, #2a0b7e, #260cbd); /* For Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient (right, #2a0b7e, #260cbd);  /* For opera 11.1 to 12.0 */ 
+    background: -moz-linear-gradient (right, #2a0b7e, #260cbd); /* For Firefox 3.6 to 15 */ 
+    background: linear-gradient (to right, #2a0b7e, #260cbd);
+    /* width: 1000px; */
+}
+
+.backgroundgradient2{
+    background: -webkit-linear-gradient(left, #2a0b7e, #260cbd); /* For Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient (right, #2a0b7e, #260cbd);  /* For opera 11.1 to 12.0 */ 
+    background: -moz-linear-gradient (right, #2a0b7e, #260cbd); /* For Firefox 3.6 to 15 */ 
+    background: linear-gradient (to right, #2a0b7e, #260cbd);
+    width: 700px
+}
+
+.navlink {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px; 
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink> img {
+    height: 16px;
+}
+
+/* tambah CSS */
+#welcomeimage {
+    float : left;
+    width: 700px;
+}
+
+#furnitureofthemonth {
+    float: right;
+    width: 290px;
+}
+
+.cgambar {
+    background-image: url("..images/cart.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 20%;
+    background-position-y: 20%;
+}
+
+/* Test */
+#welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-column-count: 2; /* Chrome, safari, opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#welcomefoto {
+    float: left;
+    width: 45%;
+    margin :auto;
+    /* margin-top : 20px; 
+    margin-bottom : 20px */
+    -webkit-column-count:2;/* Chrome, safari, opera */
+    -moz-column-count: 2;/* Firefox */
+    column-count: 2;
+}
+
+#welcometext > header {
+    color : #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events > header {
+    margin-left: 10px;
+    color: #9c591e;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events > ul {
+    list-style: none;
+}
+
+#events > ul > li {
+    margin-bottom: 3px;
+}
+
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#bestsellers > header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.furniturebestsellers {
+    float: left;
+}
+
+.furniturebestsellers > header {
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+    padding : 3px;
+}
+
+.accessoriesbestsellers {
+    clear: both;
+}
+
+.accessoriesbestsellers > header {
+    height: 30px;
+    line-height: 30px;
+    background-color: #9c591e;
+    font-size: 16px;
+    color: white;
+    padding-left: 10px;
+}
+
+.productarticle {
+    width: 230px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 90px;
+    height: 90px;
+}
+
+.productarticlename {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+/* menambahkan code CSS footer */
+
+footer {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #260cbd;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer a {
+    color: yellow;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 4px 25px;
+    border: 1px solid #381f09;
+    background-color: #260cbd;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+.button:hover, .addtocartbutton:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+}
+
+/* furniture detail page */
+.furnituredetails {
+    float: left;
+    width: 1000px;
+}
+
+.productarticlelargeimage {
+    width: 200px;
+    height: 300px;
+}
+
+.productarticlelargefigure {
+    float: left;
+    margin: 10px;
+}
+
+/* The grid : four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+/* style the images inside the grid */
+.column img {
+    width: 50px;
+    opacity: 0.8px;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.productarticlecontent {
+    width: 75%;
+    float: right;
+}
+
+.productarticledescription {
+    word-wrap: normal;
+}
+
+.productarticleprice {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* Bagian About Us */
+
+.container2 {
+    float: left;
+    width: 268px;
+    font-size: 13px;
+
+}
+.thumb {
+    width: 700px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.thumbkiri {
+    width: 268px;
+    margin-top: 5px;
+    float: left;
+    border: 1px solid black;
+}
+
+p.kontak {
+    display: inline-block;
+    margin-top: 10px;
+    width: 250px;
+}
+
+img.promojuni1 {
+    float: left;
+    width: 320px;
+}
+
+/* bagian collections */
+.blockheader {
+    font-size: 27px;
+    font-family: headerfont;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.productarticlewide {
+    width: 100%;
+    float: left;
+}
+
+.productarticlewidethumbnail {
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+}
+
+.productarticlewidecontent {
+    width: 80%;
+    float: right;
+}
+
+.productarticlewidedescription {
+    text-wrap: normal;
+}
+
+.productarticlewidename {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.productarticlewideprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+.allfurnitures {
+    float: left;
+    width: 750px;
+}
+
+#shoppingcart {
+    float: left;
+    width: 175px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Bagian Form / Checkout */
+.textlabel {
+    text-align: left;
+    font-size: 14px;
+    margin: 6px;
+    display: block;
+    width: 250px;
+    padding: 2px 5px;
+    float: left;
+}
+
+.textInput {
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888;
+}
+
+fieldset {
+    padding: 0px;
+    border: none;
+}
+
+fieldset div {
+    border: 2px solid #888;
+}
+
+.submitbutton {
+    cursor: pointer;
+    padding: 4px 25px;
+    border: 1px solid #381f09;
+    background-color: #260cbd;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+    color: #f3f3f3;
+}
+
+/* Bagian Collections */
+.productarticlewidedescription {
+    font-size: 15px;
+}
+
+/* Bagian Maps */
+.maptostore {
+    float: left;
+    width: 1000px;
+}
+
+#map {
+    float: left;
+    width: 65%;
+    height: 600px;
+    margin: 25px;
+}
+
+#driving-directions {
+    float: left;
+}
