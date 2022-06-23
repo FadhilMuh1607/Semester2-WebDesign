@@ -1,0 +1,49 @@
+#container {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    color:#333;
+    border: 2px solid grey;
+    line-height: 130%;
+}
+
+#top {
+    padding: .3cm;
+    background-color: #ddd;
+    border-bottom: 1px solid gray;
+}
+
+#letnav {
+    float:left;
+    width: 125px;
+    margin: 0;
+    padding: 1cm;
+}
+
+#content {
+    margin-left: 200px;
+    border-left: 1px solid gray;
+    padding: 1cm;
+    max-width: 36cm;
+}
+
+#footer {
+    clear: both;
+    margin: 0;
+    padding: .5cm;
+    color: #333;
+    background-color: #ddd;
+    border-top: 1px solid grey;
+}
+
+#letnav p {
+    margin: 0 0 1cm 0;
+}
+
+#content h2 {
+    margin: 0 0 0.5cm 0;
+}
+
+p {
+    color :skyblue;
+}
