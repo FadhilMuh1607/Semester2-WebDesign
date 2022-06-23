@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Komentar</title>
+</head>
+<body>
+    <script>
+        var nm = 0; // nm adalah variable untuk menyimpan nama 
+        var i = 0; /* i adalah index array.
+                    index ibaratnya nomor gerbong kereta */
+        var bil1, bil2, bilMax = 0;
+        bil1 = 3;
+        bil2 = 4;
+        
+        // Max2 berfungsi mencari maksimum dari 2 bilangan
+        function max2(bil1, bi2) {
+            if (bil1 > bil2 ) {
+                return bil1;
+            } else {
+                return bil2;
+            }
+        }
+        
+        // angka yang akan tampil
+        bilMax = max2(bil1, bil2);
+        document.write(bilMax);
+    </script>
+</body>
+</html>
